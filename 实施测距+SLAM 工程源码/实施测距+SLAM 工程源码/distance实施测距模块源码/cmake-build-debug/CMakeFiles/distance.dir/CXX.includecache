@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ushio/桌面/distance/depth.h
+iostream
+-
+fstream
+-
+string
+-
+iomanip
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+librealsense2/rs.hpp
+-
+librealsense2/rsutil.h
+-
+
+/home/ushio/桌面/distance/main.cpp
+depth.h
+/home/ushio/桌面/distance/depth.h
+
